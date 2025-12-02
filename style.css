@@ -373,3 +373,142 @@ body {
     color: #1a1a1a;
     box-shadow: 0 4px 15px rgba(166, 115, 244, 0.4);
 }
+
+/* MOBILE (max-width: 768px) RESPONSIVE FIXES */
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .nav-wrapper .row {
+        text-align: center;
+    }
+
+    .nav-box {
+        gap: 12px;
+    }
+
+    .nav-box a {
+        font-size: 14px;
+        margin: 4px 8px;
+    }
+
+    .hire-btn,
+    .user-btn {
+        padding: 6px 14px;
+        font-size: 14px;
+    }
+
+    .logo h3 {
+        font-size: 20px;
+    }
+
+    /* HERO SECTION */
+    .hero-title {
+        font-size: 26px !important;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+
+    .hero-text {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .table-row .col,
+    .col-2,
+    .col-8 {
+        display: none !important; 
+    }
+
+    .content-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-row .col-8 {
+        display: block !important;
+        width: 100% !important;
+        text-align: center;
+    }
+    .pac-man-tool {
+        margin-bottom: 20px;
+    }
+
+    .pac-man-tool .tool-name {
+        font-size: 15px;
+    }
+
+    .pac-man-tool img {
+        width: 22px;
+    }
+
+    .process .step-box {
+        flex-direction: row;
+        margin-top: 25px;
+    }
+
+    .process .step-number {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+    .process img {
+        width: 45px;
+    }
+
+    .process div[style*="border-left"] {
+        padding-left: 20px !important;
+        margin-left: 30px !important;
+        border-left-width: 1px !important;
+    }
+
+    .project-row {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .project-info {
+        justify-content: center;
+        margin-top: 8px;
+    }
+
+    .project-gradient {
+        height: 5px;
+        width: 100%;
+    }
+
+    .testimonial-row {
+        flex-direction: column !important;
+        gap: 25px !important;
+    }
+
+    .testimonial-row .card {
+        max-width: 100% !important;
+    }
+
+    .cta-subtext {
+        font-size: 14px;
+    }
+
+    .gradient-button {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    section.container.d-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section.container.d-flex img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    nav .nav-box button {
+        margin: 0 4px;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
